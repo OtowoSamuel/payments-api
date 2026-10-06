@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payments-api
+  description: "Handles payment processing for the storefront"
+  annotations:
+    github.com/project-slug: OtowoSamuel/payments-api
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes/id-selector: payments-api
+  links:
+    - url: https://github.com/OtowoSamuel/payments-api/actions
+      title: Pipeline
+      icon: github
+    - url: https://github.com/OtowoSamuel/payments-api
+      title: Repository
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/payments"
+  system: default
