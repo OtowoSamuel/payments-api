@@ -29,7 +29,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: payments-api
-          image: ghcr.io/OtowoSamuel/payments-api:latest
+          image: ghcr.io/otowosamuel/payments-api:latest
           ports:
             - name: http
               containerPort: 8080
