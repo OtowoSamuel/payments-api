@@ -6,6 +6,7 @@ metadata:
     app.kubernetes.io/name: payments-api
     app.kubernetes.io/part-of: payments-api
     app.kubernetes.io/managed-by: kustomize
+    team: payments
 spec:
   replicas: 1
   selector:
