@@ -5,6 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/name: payments-api
 spec:
+  type: LoadBalancer
   selector:
     app.kubernetes.io/name: payments-api
   ports:
